@@ -1,0 +1,27 @@
+{
+  "name": "twitbot",
+  "version": "1.0.0",
+  "description": "twitter bot that will give daily prices of cryptocurrencies",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morganrmarie/twitter-crypto-price-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "Morgan Richardson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morganrmarie/twitter-crypto-price-bot/issues"
+  },
+  "homepage": "https://github.com/morganrmarie/twitter-crypto-price-bot#readme",
+  "dependencies": {
+    "node-coinmarketcap": "^0.2.0",
+    "twit": "^2.2.11"
+  }
+}
